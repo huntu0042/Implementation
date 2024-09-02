@@ -9,7 +9,7 @@ import math
 import copy
 
 
-class Transformer(nn.module):
+class Transformer(nn.Module):
     def __init__(self, source_embed, target_embed, encoder, decoder, generator):
         super(Transformer,self).__init__()
         self.source_embed = source_embed
